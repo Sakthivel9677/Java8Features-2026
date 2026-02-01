@@ -22,7 +22,7 @@ public class SecondMap {
 	System.out.println(result5);
 	List<String> result6=strings.stream().map(n->n.trim()).collect(Collectors.toList());
 	System.out.println(result6);
-	List<String> result7=strings.stream().map(s -> s.substring(0, 2)).collect(Collectors.toList());
+	List<String> result7=strings.stream().map(s -> s.substring(2, 4)).collect(Collectors.toList());
 	System.out.println(result7);
 	List<String> result8=strings.stream().map(s -> s.substring(0, 2)).collect(Collectors.toList());
 	System.out.println(result8);

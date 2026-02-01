@@ -11,6 +11,9 @@ public static void main(String[] args) {
 		);
 	data.stream().flatMap(List::stream).forEach(System.out::println);
 	
+	List<List<String>> data1=Arrays.asList(Arrays.asList("apple","orange","guava","grapes"),Arrays.asList("apple1","orange1","guava1","grapes1"));
+	data1.stream().flatMap(List::stream).forEach(System.out::println);
+	
 }
 }
 
